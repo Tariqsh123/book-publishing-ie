@@ -4,6 +4,42 @@
 #book-printing{
     background-image: url(https://cdn.bookpublishing.ie/assets/frontend/images/services/book-printing/service-bg.webp);
 }
+#book-marketing{
+    background-image: url(https://cdn.bookpublishing.ie/assets/frontend/images/services/book-marketing/service-bg.webp);
+}
+#book-cover-design{
+    background-image: url(https://cdn.bookpublishing.ie/assets/frontend/images/services/book-cover-design/service-bg.webp);
+}
+#comic-book-publishing{
+    background-image: url(https://cdn.bookpublishing.ie/assets/frontend/images/services/comic-book-publishing/service-bg.webp);
+}
+#childrens-book-publishing{
+    background-image: url(https://cdn.bookpublishing.ie/assets/frontend/images/services/childrens-book-publishing/service-bg.webp);
+}
+#poetry-and-poem{
+    background-image: url(https://cdn.bookpublishing.ie/assets/frontend/images/services/poetry-and-poem-publishing/service-bg.webp);
+}
+#editing-and-proofreading{
+    background-image: url(https://cdn.bookpublishing.ie/assets/frontend/images/services/book-editing-and-proofreading/service-bg.webp);
+}
+#wikipedia-page-creation{
+    background-image: url(https://cdn.bookpublishing.ie/assets/frontend/images/services/wikipedia-page-creation-services/wikipedia-creation-bg.webp);
+}
+#wikipedia-page-translation{
+    background-image: url(https://cdn.bookpublishing.ie/assets/frontend/images/services/wikipedia-page-translation-services/wikipedia-page-translation-bg.webp);
+}
+#wikipedia-main-and-moni{
+    background-image: url(https://cdn.bookpublishing.ie/assets/frontend/images/services/wikipedia-maintenance-and-monitoring/wikipedia-maintenance-bg.webp);
+}
+#wikipedia-research{
+    background-image: url(https://cdn.bookpublishing.ie/assets/frontend/images/services/wikipedia-research-and-copy-writing/wikipedia-research-bg.webp);
+}
+#kdp-book-publishing{
+    background-image: url(https://cdn.bookpublishing.ie/assets/frontend/images/services/book-cover-design/service-bg.webp);
+}
+
+
+
 .service-after-header-ul {
     list-style: none;
     padding: 0;
