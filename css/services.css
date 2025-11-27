@@ -1,0 +1,64 @@
+#ebook-publishing{
+    background-image: url(https://cdn.bookpublishing.ie/assets/frontend/images/services/ebook-publishing/service-bg.webp);
+}
+#book-printing{
+    background-image: url(https://cdn.bookpublishing.ie/assets/frontend/images/services/book-printing/service-bg.webp);
+}
+.service-after-header-ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 30px; /* row and column gap */
+}
+.service-after-header-ul .listing{
+     width: calc(50% - 30px); /* 2 per row */
+}
+@media(max-width:600px){
+    .service-after-header-ul {
+    justify-content: center;
+}
+}
+
+/* Genres` */
+.services-genres-main-container{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    flex-direction: column;
+}
+.services-genres-main-container h2{
+    text-align: center;
+}
+.services-genres-inner-container{
+    height: fit-content;
+    width: 95%;
+    max-width: 1200px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.services-genres-card{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.services-genres-card h3{
+    color: #453894 !important;
+    font-size: large !important;
+}
+.services-genres-card img{
+    height: 80px;
+    width: auto;
+    object-fit: contain;
+}

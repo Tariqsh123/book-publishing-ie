@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about-us-section {
+  background-image: url('https://cdn.bookpublishing.ie/assets/frontend/images/bg/about-bg.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 20px;
+  padding-top: 200px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-us-content {
+  max-width: 1000px;
+  width: 95%;
+}
+
+.about-us-heading {
+  font-size: 50px !important;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 20px;
+  color: #fff !important;
+}
+
+.about-us-para {
+  font-size: large !important;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #fff !important;
+}
+
+.about-us-btn {
+  background: #f9ce34;
+  color: #000;
+  padding: 14px 35px !important;
+  border-radius: 50px;
+  display: inline-block;
+  font-size: 20px !important;
+  font-weight: 600;
+  border: 2px solid transparent;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.about-us-btn:hover{
+    background-color: transparent;
+  border: 2px solid #f9ce34;
+    color: #f9ce34;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-us-heading {
+    font-size: 35px !important;
+  }
+
+  .about-us-para {
+    font-size: 14px !important;
+  }
+  .about-us-btn {
+  padding: 10px 30px !important;
+  font-size: 16px !important;
+}
+}
+
+@media (max-width: 600px) {
+    .about-us-section {
+  padding: 50px 10px;
+  padding-top: 150px;
+}
+  .about-us-heading {
+    font-size: 30px !important;
+  }
+
+  .about-us-para {
+    font-size: 14px !important;
+  }
+  .about-us-btn {
+  padding: 5px 25px !important;
+  font-size: 14px !important;
+}
+}
+
+/* After HEadr */
+.about-after-header-section {
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-after-header-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-after-header-card {
+  width: 450px;
+  height: 200px;
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+/* ICON SECTION LEFT SIDE */
+.about-after-header-icon {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-after-header-image {
+  width: 100px;
+  height: 100px;
+  background-color: #453894;
+  border-radius: 50%;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-after-header-image img {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+}
+.about-after-header-text {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-after-header-text h3 {
+  font-size: 25px !important;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.about-after-header-text p {
+  font-size: 14px !important;
+  line-height: 1.5;
+}
+.listing {
+  position: relative;
+  padding-left: 40px;   
+  margin-bottom: 10px;
+  text-align: left;
+}
+.listing::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 25px;
+  height: 25px;
+  background: #f9ce34;
+  color: #000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .about-after-header-section {
+    padding: 50px 10px;}
+    .about-after-header-container {
+    gap: 5px;}
+    .about-after-header-card {
+    width: 450px;
+    height: 160px;}
+
+}
+@media (max-width: 600px) {
+      .about-after-header-container {
+        gap: 5px;
+        width: 98%;
+    }
+    .about-after-header-image {
+    width: 80px;
+    height: 80px;}
+    .about-after-header-text h3 {
+    font-size: 17px !important;
+}
+.about-after-header-text p {
+    font-size: 12px !important;
+    line-height: 1.5;
+}
+    .about-after-header-card {
+        width: 100%;
+        height: 130px;
+    }
+}
+
+
+/* Our Team  */
+.our-team-section {
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.our-team-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.our-team-heading {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.our-team-para {
+  max-width: 850px;
+  margin: 0 auto 40px auto;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.our-team-card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  margin-top: 20px;
+}
+
+/* CARD */
+.our-team-card {
+  background: #e5e5e5;       /* gray card bg */
+  border-radius: 15px;
+  height: 400px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+/* CIRCLE IMAGE */
+.our-team-image-container {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.our-team-image-container img {
+  width: auto;
+  height: 80%;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+/* TEXT BOX */
+.our-team-card-text-container {
+  background: #453894;        /* blue bg */
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius:0 0 10px 10px;
+  text-align: center;
+}
+
+.our-team-card-text-container h3,
+.our-team-card-text-container h4 {
+  color: #ffffff !important;
+}
+
+.our-team-card-text-container h3 {
+  font-size: 25px !important;
+  font-weight: 700;
+  margin: 0 !important;
+}
+
+.our-team-card-text-container h4 {
+  font-size: 20px !important;
+  margin: 0 !important;
+  font-weight: 500;
+}
+
+
+
+
+/* Work Card */
+section.we-work .work-card-1::after {
+    background-image: none;
+    content: '1';
+    font-size: xx-large;
+    font-weight: 900;
+}
+section.we-work .work-card-2::after {
+    background-image: none;
+    content: '2';
+    font-size: xx-large;
+    font-weight: 900;
+}
+section.we-work .work-card-3::after {
+    background-image: none;
+    content: '3';
+    font-size: xx-large;
+    font-weight: 900;
+}
+section.we-work .work-card-4::after {
+    background-image: none;
+    content: '4';
+    font-size: xx-large;
+    font-weight: 900;
+}
+section.we-work .work-card-5::after {
+    background-image: none;
+    content: '5';
+    font-size: xx-large;
+    font-weight: 900;
+}
+section.we-work .work-card-6::after {
+    background-image: none;
+    content: '6';
+    font-size: xx-large;
+    font-weight: 900;
+}
