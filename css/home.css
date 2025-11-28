@@ -63,16 +63,16 @@ html {
 
 ::-webkit-scrollbar-thumb,
 ::-webkit-scrollbar-thumb:hover {
-    background: #ffe03d !important
+    background: #8dc63f !important
 }
 
 ::-moz-selection {
-    background-color: #ffe03d;
+    background-color: #8dc63f;
     color: #fff
 }
 
 ::selection {
-    background-color: #ffe03d;
+    background-color: #8dc63f;
     color: #fff
 }
 
@@ -88,7 +88,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #070031 !important;
+    color: #000 !important;
     display: inline-block !important;
     margin-bottom: 16px !important
 }
@@ -148,7 +148,8 @@ h6 {
 }
 
 p {
-    color: #070031 !important;
+    
+    color: #000 !important;
     font-family: raleway-light;
     font-size: 16px !important;
     margin-bottom: 1rem !important
@@ -173,7 +174,7 @@ ul {
 }
 
 ul li {
-    color: #070031;
+    color: #000;
     font-family: raleway-light;
     font-size: 16px !important;
     list-style: none;
@@ -183,9 +184,9 @@ ul li {
 a.chat-with-us,
 button.chat-with-us {
     background: transparent;
-    border: 1px solid #ffe03d;
+    border: 1px solid #8dc63f;
     border-radius: 40px;
-    color: #ffe03d !important;
+    color: #8dc63f !important;
     display: inline-block;
     font-family: raleway-semibold;
     font-size: 16px;
@@ -199,20 +200,13 @@ button.chat-with-us {
 
 a.chat-with-us:hover,
 button.chat-with-us:hover {
-    background: #ffe03d !important;
-    border: 1px solid #ffe03d;
-    color: #070031 !important;
-    transition: all .5s ease-in-out
+    background: #8dc63f !important;
+    border: 1px solid #8dc63f;
+    color: #000 !important;
+    transition: all .5s ease-in-out;
 }
 
-.btn-insta {
-    background: linear-gradient(90deg, #f9ce34, #ee2a7b 55%, #6228d7);
-    border: none;
-    border-radius: 40px;
-    color: #fff
-}
 
-.btn-insta,
 .btn-live {
     display: inline-block;
     font-family: raleway-semibold;
@@ -225,16 +219,16 @@ button.chat-with-us:hover {
 }
 
 .btn-live {
-    background: #ffe03d;
-    border: 1px solid #ffe03d;
+    background: #8dc63f;
+    border: 1px solid #8dc63f;
     border-radius: 40px;
-    color: #070031
+    color: #000
 }
 
 .btn-live:hover {
     background: transparent !important;
-    border: 1px solid #ffe03d;
-    color: #ffe03d !important
+    border: 1px solid #8dc63f;
+    color: #8dc63f !important
 }
 
 .btn-live:hover,
@@ -243,8 +237,8 @@ button.chat-with-us:hover {
 }
 
 .btn-talk {
-    background: #453894;
-    border: 1px solid #453894;
+    background: #ed0080;
+    border: 1px solid #ed0080;
     border-radius: 40px;
     color: #fff;
     display: inline-block;
@@ -257,14 +251,14 @@ button.chat-with-us:hover {
 }
 
 .btn-talk:hover {
-    background: #ffe03d !important;
-    border: 1px solid #ffe03d;
+    background: #8dc63f !important;
+    border: 1px solid #8dc63f;
     transition: all .5s ease-in-out
 }
 
 .btn-talk:hover,
 .btn-talk:hover i {
-    color: #070031 !important
+    color: #000 !important
 }
 
 input::-webkit-inner-spin-button,
@@ -572,9 +566,9 @@ button.swiper-pagination-bullet {
     --bs-tertiary-color: rgba(33, 37, 41, .5);
     --bs-tertiary-bg: #f8f9fa;
     --bs-heading-color: inherit;
-    --bs-link-color: #0d6efd;
+    --bs-link-color: #ed0080;
     --bs-link-color-rgb: 13, 110, 253;
-    --bs-link-hover-color: #0a58ca;
+    --bs-link-hover-color: #000;
     --bs-link-hover-color-rgb: 10, 88, 202;
     --bs-highlight-color: #212529;
     --bs-highlight-bg: #fff3cd;
@@ -589,7 +583,7 @@ button.swiper-pagination-bullet {
 *,
 :after,
 :before {
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 @media (prefers-reduced-motion:no-preference) {
@@ -716,7 +710,7 @@ mark {
 
 a {
     color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
-    text-decoration: underline
+    text-decoration: underline;
 }
 
 a:hover {
@@ -999,7 +993,7 @@ textarea {
 
 .form-control:focus {
     background-color: var(--bs-body-bg);
-    border-color: #86b7fe;
+    border-color: #8dc63f;
     box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
     color: var(--bs-body-color);
     outline: 0
@@ -1134,7 +1128,7 @@ textarea.form-control.is-invalid {
     --bs-dropdown-link-hover-color: var(--bs-body-color);
     --bs-dropdown-link-hover-bg: var(--bs-tertiary-bg);
     --bs-dropdown-link-active-color: #fff;
-    --bs-dropdown-link-active-bg: #0d6efd;
+    --bs-dropdown-link-active-bg: #ed0080;
     --bs-dropdown-link-disabled-color: var(--bs-tertiary-color);
     --bs-dropdown-item-padding-x: 1rem;
     --bs-dropdown-item-padding-y: 0.25rem;
@@ -1245,7 +1239,7 @@ textarea.form-control.is-invalid {
 .nav-pills {
     --bs-nav-pills-border-radius: var(--bs-border-radius);
     --bs-nav-pills-link-active-color: #fff;
-    --bs-nav-pills-link-active-bg: #0d6efd
+    --bs-nav-pills-link-active-bg: #ed0080
 }
 
 .nav-pills .nav-link {
@@ -1789,7 +1783,7 @@ header .navbar ul.navbar-nav.phone-number li a.nav-link {
 }
 
 header .navbar ul.navbar-nav.phone-number li a.nav-link i {
-    color: #ffe03d;
+    color: #8dc63f;
     margin-right: 4px
 }
 
@@ -1801,12 +1795,12 @@ header .navbar .dropdown:hover .dropdown-menu {
 header .navbar .dropdown .dropdown-item.active,
 header .navbar .dropdown .dropdown-item:focus,
 header .navbar .dropdown .dropdown-item:hover {
-    background-color: #ffe03d !important;
-    color: #070031 !important
+    background-color: #8dc63f !important;
+    color: #000 !important
 }
 
 header.fixed-top {
-    background-color: #453894;
+    background-color: #111;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, .271)
 }
 
@@ -1844,13 +1838,13 @@ header .navbar-toggler:focus {
     }
 
     header header#scroll-control {
-        background-color: #453894;
+        background-color: #ed0080;
         box-shadow: 0 0 10px 0 rgba(0, 0, 0, .271);
         position: fixed
     }
 
     header .navbar-collapse {
-        background: #453894;
+        background: #ed0080;
         box-shadow: 9px 0 10px 0 rgba(0, 0, 0, .141);
         height: 100vh;
         left: -12px;
@@ -1877,7 +1871,7 @@ header .navbar-toggler:focus {
 }
 
 footer {
-    background-color: #453894;
+    background-color: #111;
     padding: 40px 0
 }
 
@@ -1919,12 +1913,12 @@ footer ul li a {
 }
 
 footer ul li a i {
-    color: #ffe03d;
+    color: #8dc63f;
     margin-right: 2px
 }
 
 footer ul li a:hover {
-    color: #ffe03d
+    color: #8dc63f
 }
 
 footer .social-list li:before {
@@ -1944,7 +1938,7 @@ footer .social-icon {
 
 footer .social-icon span {
     align-items: center;
-    background-color: #ffe03d;
+    background-color: #8dc63f;
     border-radius: 50%;
     display: flex;
     height: 35px;
@@ -1958,7 +1952,7 @@ footer .social-icon span i {
 
 footer .social-icon a {
     align-items: center;
-    background-color: #ffe03d;
+    background-color: #8dc63f;
     border-radius: 50%;
     display: flex;
     height: 35px;
@@ -1971,7 +1965,7 @@ footer .social-icon a i {
 }
 
 .footer-bottom {
-    background: #453894;
+    background: #111;
     font-family: raleway-light;
     padding: 10px 0
 }
@@ -2041,7 +2035,7 @@ footer .social-icon a i {
 }
 
 .discount-modal .closing-form .btn-close {
-    background: #ffe03d;
+    background: #8dc63f;
     border-radius: 40px;
     color: #000;
     cursor: pointer;
@@ -2068,7 +2062,7 @@ footer .social-icon a i {
 }
 
 .discount-modal .modal-body {
-    background-color: #453894;
+    background-color: #ed0080;
     background-size: cover;
     border-radius: 5px;
     min-height: 640px;
@@ -2154,7 +2148,7 @@ footer .social-icon a i {
 .discount-modal .modal-body .popup-form .cupon {
     animation: blink 1.5s infinite;
     animation-fill-mode: both;
-    color: #ffe03d;
+    color: #8dc63f;
     display: block;
     font-family: raleway-light !important;
     font-size: 60px !important;
@@ -2299,7 +2293,7 @@ footer .social-icon a i {
 }
 
 section.main-banner {
-    background-color: #322678;
+    background-color:black ;
     background-image: url(../images/header-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
@@ -2348,7 +2342,7 @@ section.main-banner .header-slider .swiper-pagination {
 
 section.main-banner .header-slider .swiper-pagination span.swiper-pagination-bullet {
     background-color: transparent;
-    border: 1px solid #ffe03d;
+    border: 1px solid #8dc63f;
     height: 12px;
     margin: 0 3px;
     opacity: 1;
@@ -2356,7 +2350,7 @@ section.main-banner .header-slider .swiper-pagination span.swiper-pagination-bul
 }
 
 section.main-banner .header-slider .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: #ffe03d !important;
+    background-color: #8dc63f !important;
     border-radius: 10px;
     opacity: 1 !important;
     width: 36px !important
@@ -2390,7 +2384,7 @@ section.about h2 {
 
 section.about .h2 .highlight,
 section.about h2 .highlight {
-    background-color: #ffe03d
+    background-color: #8dc63f
 }
 
 section.about p {
@@ -2414,6 +2408,7 @@ section.about .images-box img {
 
 section.we-work {
     background-color: #fff;
+    
     background-image: url(../images/work-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
@@ -2459,11 +2454,11 @@ section.we-work .work-card:before {
 }
 
 section.we-work .work-card:after {
-    background-image: url(../images/book-writing.webp);
-    height: 45px;
+    background-image: url(https://img.icons8.com/?size=100&id=t5GRNS5yIsHP&format=png&color=FFFFFF);
+    height: 50px;
     right: 0;
     top: 0;
-    width: 45px;
+    width: 50px;
     z-index: 1
 }
 
@@ -2472,7 +2467,7 @@ section.we-work .work-card-2 {
 }
 
 section.we-work .work-card-2:after {
-    background-image: url(../images/book-editing.webp)
+    background-image: url(https://img.icons8.com/?size=100&id=nt7jrhMPqVjW&format=png&color=FFFFFF)
 }
 
 section.we-work .work-card-3 {
@@ -2480,7 +2475,7 @@ section.we-work .work-card-3 {
 }
 
 section.we-work .work-card-3:after {
-    background-image: url(../images/cover-designing.webp)
+    background-image: url(https://img.icons8.com/?size=100&id=35088&format=png&color=FFFFFF)
 }
 
 section.we-work .work-card-4 {
@@ -2488,7 +2483,7 @@ section.we-work .work-card-4 {
 }
 
 section.we-work .work-card-4:after {
-    background-image: url(../images/book-formatting.webp)
+    background-image: url(https://img.icons8.com/?size=100&id=47254&format=png&color=FFFFFF)
 }
 
 section.we-work .work-card-5 {
@@ -2496,7 +2491,7 @@ section.we-work .work-card-5 {
 }
 
 section.we-work .work-card-5:after {
-    background-image: url(../images/book-marketing.webp)
+    background-image: url(https://img.icons8.com/?size=100&id=WCf4kcsJ1PWW&format=png&color=FFFFFF)
 }
 
 section.we-work .work-card-6 {
@@ -2504,7 +2499,7 @@ section.we-work .work-card-6 {
 }
 
 section.we-work .work-card-6:after {
-    background-image: url(../images/book-printing.webp)
+    background-image: url(https://img.icons8.com/?size=100&id=123&format=png&color=FFFFFF)
 }
 
 section.we-work .buttons {
@@ -2516,8 +2511,8 @@ section.we-work .buttons {
 }
 
 section.we-work .buttons .btn-live:hover {
-    background: #453894 !important;
-    border: 1px solid #453894;
+    background: #ed0080 !important;
+    border: 1px solid #ed0080;
     color: #fff !important;
     transition: all .5s ease-in-out
 }
@@ -2533,12 +2528,12 @@ section.best-seller ul#pills-tab {
 
 section.best-seller ul#pills-tab button.nav-link {
     background-color: transparent;
-    border: 1px solid #453894;
+    border: 1px solid #ed0080;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 16px;
     border-top-left-radius: 16px;
     border-top-right-radius: 0;
-    color: #453894;
+    color: #ed0080;
     font-family: raleway-regular;
     font-size: 16px;
     height: 50px;
@@ -2546,8 +2541,8 @@ section.best-seller ul#pills-tab button.nav-link {
 }
 
 section.best-seller ul#pills-tab button.nav-link.active {
-    background-color: #453894;
-    border: 1px solid #453894;
+    background-color: #ed0080;
+    border: 1px solid #ed0080;
     color: #fff;
     font-weight: 700
 }
@@ -2566,7 +2561,7 @@ section.best-seller .services-slider .swiper-wrapper .swiper-slide p {
 }
 
 section.cta {
-    background-color: #453894;
+    background-color: black;
     background-image: url(../images/cta-bg.webp);
     background-position: 50%;
     background-repeat: no-repeat;
@@ -2661,7 +2656,7 @@ section.reviews .review-card .review-image-name .review-image img {
 
 section.reviews .review-card .review-image-name .review-name .h6,
 section.reviews .review-card .review-image-name .review-name h6 {
-    border-left: 2px solid #453894;
+    border-left: 2px solid #ed0080;
     font-family: raleway-semibold;
     margin-bottom: 0 !important;
     padding: 10px 0 10px 20px;
@@ -2683,7 +2678,7 @@ section.reviews .swiper-pagination {
 
 section.reviews .swiper-pagination span.swiper-pagination-bullet {
     background-color: transparent;
-    border: 1px solid #ffe03d;
+    border: 1px solid #8dc63f;
     height: 12px;
     margin: 0 3px;
     opacity: 1;
@@ -2691,7 +2686,7 @@ section.reviews .swiper-pagination span.swiper-pagination-bullet {
 }
 
 section.reviews .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: #ffe03d !important;
+    background-color: #8dc63f !important;
     border-radius: 10px;
     opacity: 1 !important;
     width: 36px !important
@@ -2723,7 +2718,7 @@ section.process .solid-line {
 }
 
 section.process .solid-line:after {
-    border-top: 2px solid #453894;
+    border-top: 2px solid #ed0080;
     content: "";
     left: 0;
     margin: 0 auto;
@@ -2736,7 +2731,7 @@ section.process .solid-line:after {
 
 section.process .solid-line .process-icon {
     align-items: center;
-    background: #453894;
+    background: #ed0080;
     border-radius: 50%;
     cursor: pointer;
     display: flex;
@@ -2807,7 +2802,7 @@ section.content .content-heading h2 {
 
 section.content .content-heading .h2 .highlight,
 section.content .content-heading h2 .highlight {
-    background-color: #ffe03d
+    background-color: #8dc63f
 }
 
 section.content .h4,
@@ -2831,7 +2826,7 @@ section.content-form form {
 
 section.content-form form .h3,
 section.content-form form h3 {
-    color: #011d2d;
+    color: #000;
     font-family: raleway-semibold;
     line-height: 41px;
     margin-bottom: 12px !important;
@@ -2874,12 +2869,12 @@ section.content-form form .form-control {
 }
 
 section.content-form form .form-control:focus {
-    border-color: #ffe03d;
+    border-color: #8dc63f;
     box-shadow: none
 }
 
 section.content-form form ul li {
-    color: #011d2d !important
+    color: #000 !important;
 }
 
 section.content-form form button.btn-live.send {
@@ -2962,7 +2957,7 @@ section.content-form .form-bg-details .form-image img {
     }
 
     header#scroll-control {
-        background-color: #453894;
+        background-color: #ed0080;
         box-shadow: 0 0 10px 0 rgba(0, 0, 0, .271);
         position: fixed
     }
@@ -2973,7 +2968,7 @@ section.content-form .form-bg-details .form-image img {
 
     section.cta,
     section.main-banner {
-        background-color: #453894;
+        background-color: #ed0080;
         background-image: unset
     }
 

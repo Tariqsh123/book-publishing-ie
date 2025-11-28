@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .about-us-section {
-  background-image: url('https://cdn.bookpublishing.ie/assets/frontend/images/bg/about-bg.webp');
+  background-image: url('../images/about-bg.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -37,7 +37,7 @@
 }
 
 .about-us-btn {
-  background: #f9ce34;
+  background: #8dc63f;
   color: #000;
   padding: 14px 35px !important;
   border-radius: 50px;
@@ -50,8 +50,8 @@
 }
 .about-us-btn:hover{
     background-color: transparent;
-  border: 2px solid #f9ce34;
-    color: #f9ce34;
+  border: 2px solid #8dc63f;
+    color: #8dc63f;
 }
 
 /* Responsive */
@@ -123,7 +123,7 @@
 .about-after-header-image {
   width: 100px;
   height: 100px;
-  background-color: #453894;
+  background-color: #ed0080;
   border-radius: 50%;  
   display: flex;
   align-items: center;
@@ -165,7 +165,7 @@
   top: 2px;
   width: 25px;
   height: 25px;
-  background: #f9ce34;
+  background: #8dc63f;
   color: #000;
   border-radius: 50%;
   display: flex;
@@ -271,7 +271,7 @@
 
 /* TEXT BOX */
 .our-team-card-text-container {
-  background: #453894;        /* blue bg */
+  background: #ed0080;        /* blue bg */
   width: 100%;
   height: 30%;
   display: flex;
@@ -308,33 +308,39 @@ section.we-work .work-card-1::after {
     background-image: none;
     content: '1';
     font-size: xx-large;
+    color: white;
     font-weight: 900;
 }
 section.we-work .work-card-2::after {
     background-image: none;
     content: '2';
+    color: white;
     font-size: xx-large;
     font-weight: 900;
 }
 section.we-work .work-card-3::after {
     background-image: none;
+    color: white;
     content: '3';
     font-size: xx-large;
     font-weight: 900;
 }
 section.we-work .work-card-4::after {
     background-image: none;
+    color: white;
     content: '4';
     font-size: xx-large;
     font-weight: 900;
 }
 section.we-work .work-card-5::after {
+    color: white;
     background-image: none;
     content: '5';
     font-size: xx-large;
     font-weight: 900;
 }
 section.we-work .work-card-6::after {
+    color: white;
     background-image: none;
     content: '6';
     font-size: xx-large;

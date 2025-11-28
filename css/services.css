@@ -1,41 +1,41 @@
 #ebook-publishing{
-    background-image: url(https://cdn.bookpublishing.ie/assets/frontend/images/services/ebook-publishing/service-bg.webp);
+    background-image: url(../images/ebook-publishing-bg.webp);
 }
 #book-printing{
-    background-image: url(https://cdn.bookpublishing.ie/assets/frontend/images/services/book-printing/service-bg.webp);
+    background-image: url(../images/book-printing-bg.webp);
 }
 #book-marketing{
-    background-image: url(https://cdn.bookpublishing.ie/assets/frontend/images/services/book-marketing/service-bg.webp);
+    background-image: url(../images/book-marketing-bg.webp);
 }
 #book-cover-design{
-    background-image: url(https://cdn.bookpublishing.ie/assets/frontend/images/services/book-cover-design/service-bg.webp);
+    background-image: url(../images/book-cover-design-bg.webp);
 }
 #comic-book-publishing{
-    background-image: url(https://cdn.bookpublishing.ie/assets/frontend/images/services/comic-book-publishing/service-bg.webp);
+    background-image: url(../images/comic-book-bg.webp);
 }
 #childrens-book-publishing{
-    background-image: url(https://cdn.bookpublishing.ie/assets/frontend/images/services/childrens-book-publishing/service-bg.webp);
+    background-image: url(../images/childrens-book-bg.webp);
 }
 #poetry-and-poem{
-    background-image: url(https://cdn.bookpublishing.ie/assets/frontend/images/services/poetry-and-poem-publishing/service-bg.webp);
+    background-image: url(../images/poetry-poem-bg.webp);
 }
 #editing-and-proofreading{
-    background-image: url(https://cdn.bookpublishing.ie/assets/frontend/images/services/book-editing-and-proofreading/service-bg.webp);
+    background-image: url(../images/editing-proofreading-bg.webp);
 }
 #wikipedia-page-creation{
-    background-image: url(https://cdn.bookpublishing.ie/assets/frontend/images/services/wikipedia-page-creation-services/wikipedia-creation-bg.webp);
+    background-image: url(../images/wiki-page-creation-bg.webp);
 }
 #wikipedia-page-translation{
-    background-image: url(https://cdn.bookpublishing.ie/assets/frontend/images/services/wikipedia-page-translation-services/wikipedia-page-translation-bg.webp);
+    background-image: url(../images/wiki-page-translation.webp);
 }
 #wikipedia-main-and-moni{
-    background-image: url(https://cdn.bookpublishing.ie/assets/frontend/images/services/wikipedia-maintenance-and-monitoring/wikipedia-maintenance-bg.webp);
+    background-image: url(../images/wiki-main-moni-bg.webp);
 }
 #wikipedia-research{
-    background-image: url(https://cdn.bookpublishing.ie/assets/frontend/images/services/wikipedia-research-and-copy-writing/wikipedia-research-bg.webp);
+    background-image: url(../images/wiki-research-bg.webp);
 }
 #kdp-book-publishing{
-    background-image: url(https://cdn.bookpublishing.ie/assets/frontend/images/services/book-cover-design/service-bg.webp);
+    background-image: url(../images/kdp-publishing-bg.webp);
 }
 
 
@@ -90,7 +90,7 @@
     gap: 20px;
 }
 .services-genres-card h3{
-    color: #453894 !important;
+    color: #ed0080 !important;
     font-size: large !important;
 }
 .services-genres-card img{
