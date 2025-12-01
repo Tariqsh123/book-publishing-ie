@@ -309,40 +309,69 @@ section.we-work .work-card-1::after {
     content: '1';
     font-size: xx-large;
     color: white;
+    height: fit-content;
+    width: fit-content;
+        right: 15px;
+    top: -10px;
+
     font-weight: 900;
 }
 section.we-work .work-card-2::after {
     background-image: none;
-    content: '2';
+    content: '2';height: fit-content;
+    width: fit-content;
     color: white;
     font-size: xx-large;
     font-weight: 900;
+        right: 15px;
+    top: -10px;
+
 }
 section.we-work .work-card-3::after {
     background-image: none;
-    color: white;
+    color: white;height: fit-content;
+    width: fit-content;
     content: '3';
     font-size: xx-large;
     font-weight: 900;
+        right: 15px;
+    top: -10px;
+
 }
 section.we-work .work-card-4::after {
     background-image: none;
-    color: white;
+    color: white;height: fit-content;
+    width: fit-content;
     content: '4';
     font-size: xx-large;
     font-weight: 900;
+        right: 15px;
+    top: -10px;
+
 }
 section.we-work .work-card-5::after {
     color: white;
     background-image: none;
-    content: '5';
+    content: '5';height: fit-content;
+    width: fit-content;
+        right: 15px;
+    top: -10px;
+
     font-size: xx-large;
     font-weight: 900;
 }
 section.we-work .work-card-6::after {
     color: white;
     background-image: none;
-    content: '6';
+    content: '6';height: fit-content;
+    width: fit-content;
     font-size: xx-large;
+        right: 15px;
+    top: -10px;
+
     font-weight: 900;
+}
+section.we-work .work-card:before {
+    height: 80px;
+    width: 100px;
 }

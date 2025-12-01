@@ -98,3 +98,8 @@
     width: auto;
     object-fit: contain;
 }
+
+section.we-work .work-card:before {
+    height: 80px;
+    width: 100px;
+}
