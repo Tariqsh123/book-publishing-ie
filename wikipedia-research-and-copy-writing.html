@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/about-us.css">
     <link rel="stylesheet" href="css/services.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <style>
         @font-face {
             font-display: swap;
@@ -62,70 +63,126 @@
 
 <body>
     <!-- NAvbar -->
-    <header class="main-header pt-0 pb-0" id="scroll-control">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid p-0">
-                    <a class="navbar-brand" href="index.html" title="Home Page">
-                        <img src="images/logo.webp" class="img-fluid lazyload" alt="Logo" title="Logo" loading="lazy" width="118" height="42">
-                    </a>
-                    <button class="navbar-toggler" type="button"data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <ul class="navbar-nav phone-number">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#" title="Phone">
-                                    <i class="fa-solid fa-phone-flip"></i> +12121212121 
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#" title="Email">
-                                    <i class="fa-solid fa-envelope"></i> info@randombook.com 
-                                </a>
-                            </li>
-                        </ul>
-                        
-                        <ul class="navbar-nav align-items-center">
-                            <li class="nav-item ">
-                                <a class="nav-link" href="index.html" title="Home"> Home </a>
-                            </li>
-                            <li class="nav-item ">
-                                <a class="nav-link" href="about-us.html">About Us </a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <span class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</span>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item " href="kdp-book-publishing.html" title="KDP Book Publishing">KDP Book Publishing </a>
-                                    <a class="dropdown-item " href="ebook-publishing.html" title="Ebook Publishing">eBook Publishing </a>
-                                    <a class="dropdown-item " href="book-printing.html" title="Book Printing"> Book Printing </a>
-                                    <a class="dropdown-item " href="book-marketing.html" title="Book Marketing"> Book Marketing </a>
-                                    <a class="dropdown-item " href="book-cover-design.html" title="Book Cover Design"> Book Cover Design </a>
-                                    <a class="dropdown-item " href="comic-book-publishing.html" title="Comic Book Publishing"> Comic Book Publishing </a>
-                                    <a class="dropdown-item " href="childrens-book-publishing.html" title="Childrens Book Publishing"> Children's Book Publishing </a>
-                                    <a class="dropdown-item " href="poetry-and-poem-publishing.html" title="Poetry And Poem Publishing"> Poetry And Poem Publishing </a>
-                                    <a class="dropdown-item " href="editing-and-proofreading.html" title=" Book Editing And Proofreading"> Book Editing And Proofreading </a>
-                                    <a class="dropdown-item " href="wikipedia-page-creation.html" title=" Wikipedia Page Creation Services"> Wikipedia Page Creation Services </a>
-                                    <a class="dropdown-item " href="wikipedia-page-translation.html" title="Wikipedia Page Translation Services"> Wikipedia Page Translation Services </a>
-                                    <a class="dropdown-item " href="wikipedia-maintainance-and-monitoring.html" title="Wikipedia Maintenance And Monitoring"> Wikipedia Maintenance And Monitoring </a>
-                                    <a class="dropdown-item " href="wikipedia-research-and-copy-writing.html" title="Wikipedia Research And Copy Writing"> Wikipedia Research And Copy Writing </a>
-                                </div>
-                            </li>
-                            <li class="nav-item ">
-                                <a class="nav-link" href="reviews.html" title="Reviews">Reviews </a>
-                            </li>
-                            <li class="nav-item ">
-                                <a class="nav-link" href="contact-us.html" title="Contact Us "> Contact Us </a>
-                            </li>
-                            <li class="nav-item ">
-                                <a class="animate__animated animate__heartBeats animate__slow animate__infinite animate__delay-5s btn-live" href="free-qoute.html" title="Get Started"> Get Started </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+
+<header class="main-header" id="scroll-control">
+  <div class="container">
+    <nav class="custom-navbar">
+
+      <!-- LEFT SIDE: Logo + Contact -->
+      <div class="left-block">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.webp" alt="Logo">
+        </a>
+        <div class="header-contact">
+          <a href="#"><i class="fa-solid fa-phone-flip"></i> +12121212121</a>
+          <a href="#"><i class="fa-solid fa-envelope"></i> info@randombook.com</a>
         </div>
-    </header>
+      </div>
+
+      <!-- MOBILE MENU TOGGLE -->
+      <button class="menu-toggle" id="menuToggle">☰</button>
+
+      <!-- NAVBAR MENU -->
+      <div class="navbar-menu" id="navbarMenu">
+
+        <!-- MOBILE CONTACT -->
+        <div class="mobile-contact">
+          <a href="#"><i class="fa-solid fa-phone-flip"></i> +12121212121</a>
+          <a href="#"><i class="fa-solid fa-envelope"></i> info@randombook.com</a>
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+
+           <!-- DROPDOWN -->
+          <li class="dropdown">
+            <span class="dropdown-toggle">Services <i class="fa-solid fa-caret-down"></i></span>
+            <div class="dropdown-menu multi-column">
+              <a href="kdp-book-publishing.html"><i class="fa-solid fa-book"></i> KDP Book Publishing</a>
+              <a href="ebook-publishing.html"><i class="fa-solid fa-tablet"></i> eBook Publishing</a>
+              <a href="book-printing.html"><i class="fa-solid fa-print"></i> Book Printing</a>
+              <a href="book-marketing.html"><i class="fa-solid fa-bullhorn"></i> Book Marketing</a>
+              <a href="book-cover-design.html"><i class="fa-solid fa-image"></i> Book Cover Design</a>
+              <a href="comic-book-publishing.html"><i class="fa-solid fa-book-open"></i> Comic Book Publishing</a>
+              <a href="childrens-book-publishing.html"><i class="fa-solid fa-child"></i> Children's Book Publishing</a>
+              <a href="poetry-and-poem-publishing.html"><i class="fa-solid fa-pen-nib"></i> Poetry & Poem Publishing</a>
+              <a href="editing-and-proofreading.html"><i class="fa-solid fa-spell-check"></i> Editing & Proofreading</a>
+              <a href="wikipedia-page-creation.html"><i class="fa-brands fa-wikipedia-w"></i> Wikipedia Page Creation</a>
+              <a href="wikipedia-page-translation.html"><i class="fa-solid fa-language"></i> Wikipedia Translation</a>
+              <a href="wikipedia-maintainance-and-monitoring.html"><i class="fa-solid fa-shield"></i> Wikipedia Maintenance</a>
+              <a href="wikipedia-research-and-copy-writing.html"><i class="fa-solid fa-file-lines"></i> Wikipedia Research</a>
+            </div>
+          </li>
+
+
+          <li><a href="about-us.html">About Us</a></li>
+
+         
+
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+          <li><a class="btn-live" href="free-qoute.html">Get Started</a></li>
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+</header>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const toggleBtn = document.getElementById("menuToggle");
+  const menu = document.getElementById("navbarMenu");
+
+  const dropdown = document.querySelector(".dropdown");
+  const dropToggle = dropdown.querySelector(".dropdown-toggle");
+  const dropMenu = dropdown.querySelector(".dropdown-menu");
+
+  // Mobile menu toggle
+  toggleBtn.addEventListener("click", (e) => {
+    e.stopPropagation(); // Prevent document click from immediately closing
+    menu.classList.toggle("active");
+  });
+
+  // Dropdown toggle (desktop + mobile)
+  dropToggle.addEventListener("click", (e) => {
+    e.stopPropagation();
+    dropdown.classList.toggle("menu-open");
+    dropMenu.style.display = dropdown.classList.contains("menu-open")
+      ? (window.innerWidth > 991 ? "grid" : "block")
+      : "none";
+  });
+
+  // Click outside to close dropdown & mobile menu
+  document.addEventListener("click", (e) => {
+    // Close dropdown if clicked outside
+    if (!dropdown.contains(e.target)) {
+      dropdown.classList.remove("menu-open");
+      dropMenu.style.display = "none";
+    }
+    // Close mobile menu if clicked outside toggle & menu
+    if (!menu.contains(e.target) && !toggleBtn.contains(e.target)) {
+      menu.classList.remove("active");
+    }
+  });
+
+  // Reset dropdown display on window resize
+  window.addEventListener("resize", () => {
+    dropMenu.style.display = dropdown.classList.contains("menu-open")
+      ? (window.innerWidth > 991 ? "grid" : "block")
+      : "none";
+  });
+
+  // Scroll background
+  const header = document.getElementById("scroll-control");
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 40) header.classList.add("scrolled");
+    else header.classList.remove("scrolled");
+  });
+});
+</script>
+
+
+
     <!-- NAvbar End -->
 
     <!-- Hero Section -->
@@ -414,32 +471,32 @@ BookPublishing.ie operating since 2018, is a top-rated Wikipedia research and co
    <div class="services-genres-inner-container">
         <!-- 1 -->
         <div class="services-genres-card">
-            <img src="https://img.icons8.com/?size=100&id=ajkz1dk1AfEe&format=png&color=8dc63f" alt="Fiction" title="Fiction" loading="lazy">
+            <img src="images/fiction.webp" alt="Fiction" title="Fiction" loading="lazy">
             <h3>Fiction</h3>
         </div>
         <!-- 2 -->
         <div class="services-genres-card">
-            <img src="https://img.icons8.com/?size=100&id=8zRDH1HqUqhE&format=png&color=8dc63f" alt="Non-Fiction" title="Non-Fiction" loading="lazy">
+            <img src="images/nonfiction.webp" alt="Non-Fiction" title="Non-Fiction" loading="lazy">
             <h3>Non-Fiction</h3>
         </div>
         <!-- 3 -->
         <div class="services-genres-card">
-            <img src="https://img.icons8.com/?size=100&id=qdZS3QAoZE4Y&format=png&color=8dc63f" alt="Memoir" title="Memoir" loading="lazy">
+            <img src="images/memoir.webp" alt="Memoir" title="Memoir" loading="lazy">
             <h3>Memoir</h3>
         </div>
         <!-- 4 -->
         <div class="services-genres-card">
-            <img src="https://img.icons8.com/?size=100&id=8939&format=png&color=8dc63f" alt="Fantasy" title="Fantasy" loading="lazy">
+            <img src="images/fantasy.webp" alt="Fantasy" title="Fantasy" loading="lazy">
             <h3>Fantasy</h3>
         </div>
         <!-- 5 -->
         <div class="services-genres-card">
-            <img src="https://img.icons8.com/?size=100&id=vGrAsh8Ni5mh&format=png&color=8dc63f" alt="Children's Books" title="Children's Books" loading="lazy">
+            <img src="images/childrens.webp" alt="Children's Books" title="Children's Books" loading="lazy">
             <h3>Children's Books</h3>
         </div>
         <!-- 6 -->
         <div class="services-genres-card">
-            <img src="https://img.icons8.com/?size=100&id=x10PJX7Tuaq2&format=png&color=8dc63f" alt="Other Books" title="Other Books" loading="lazy">
+            <img src="images/other.webp" alt="Other Books" title="Other Books" loading="lazy">
             <h3>Other Genres</h3>
         </div>
     </div>
@@ -707,7 +764,7 @@ BookPublishing.ie operating since 2018, is a top-rated Wikipedia research and co
                                 <li><a href="reviews.html" title="Reviews"> Reviews </a></li>
                                 <li><a href="contact-us.html" title="Contact Us"> Contact Us </a></li>
                                 <li><a href="free-qoute.html" title="Free Quote"> Free Quote </a></li>
-                                <li><a href="#" title="Sitemap">Sitemap </a></li>
+                                <li><a href="sitemap.html" title="Sitemap">Sitemap </a></li>
                                 <li><a href="#" title="Author Questionnaire">Author Questionnaire </a></li>
                             </ul>
                         </div>
@@ -758,9 +815,9 @@ BookPublishing.ie operating since 2018, is a top-rated Wikipedia research and co
                 </div>
                 <div class="col-12 col-lg-6 col-md-12 col-sm-12">
                     <ul>
-                        <li><a href="#" title="Privacy Policy"> Privacy Policy </a></li>
+                        <li><a href="privacy.html" title="Privacy Policy"> Privacy Policy </a></li>
                         <li class="v-line"> | </li>
-                        <li><a href="#" title=" Terms & Conditions"> Terms & Conditions </a></li>
+                        <li><a href="terms.html" title=" Terms & Conditions"> Terms & Conditions </a></li>
                     </ul>
                 </div>
             </div>
