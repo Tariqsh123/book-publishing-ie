@@ -2849,7 +2849,8 @@ section.content-form .form-bg-details .form-image img {
     }
 
     section.cta .btn-live {
-        margin-bottom: 20px
+        margin-bottom: 20px;
+        font-size: small;
     }
 
     section.about .h2,
@@ -2879,7 +2880,8 @@ section.content-form .form-bg-details .form-image img {
     }
 
     section.reviews .review-card p {
-        width: 100%
+        width: 100%;
+        font-size: 10px !important;
     }
 
     section.reviews .swiper-wrapper .swiper-slide.swiper-slide-active {
@@ -2941,7 +2943,8 @@ section.content-form .form-bg-details .form-image img {
     section.content-form {
         background-color: #fcfcff;
         background-image: unset;
-        text-align: center
+        text-align: center;
+        padding-top: 0;
     }
 
     .form-bg-details .text-start {
@@ -3050,7 +3053,8 @@ section.content-form .form-bg-details .form-image img {
     }
 
     section.cta .btn-live {
-        margin-bottom: 20px
+        margin-bottom: 20px;
+        font-size: 10px;
     }
 
     section.cta img {
@@ -3213,10 +3217,15 @@ section.we-work .buttons .btn-live:hover{
 }
 @media (max-width: 480px) {
     section.we-work .buttons .btn-live {
-        font-size: 12px !important;
-        padding: 5px 10px !important;
+        font-size: 10px !important;
+        padding: 6px 8px !important;
     }
-}
 .best-seller{
     padding: 30px 0;
+}
+
+@media (max-width: 480px) {
+ section.main-banner a.btn-live {
+        margin-bottom: 15px !important;
+    }
 }
